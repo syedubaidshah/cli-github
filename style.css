@@ -1,7 +1,10 @@
+body{
+  background-color: #0d1117;
+}
+
 * {
   margin: 0;
   padding: 0;
-  background-color: #0d1117;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -133,21 +136,18 @@
   border: 2px solid red;
   }
 
-  .main h3 {
-  color: white;
-  font-size: 20px;
-  font-weight: 100;
+  .main a {
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
     Liberation Mono, monospace !important;
 }
 
-.main span {
+/* .main span {
   font-size: 20px;
   font-weight: 100;
   color: #2f81f7;
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
     Liberation Mono, monospace !important;
-}
+} */
 
 .main p {
   color: white;
@@ -156,14 +156,15 @@
 }
 
 .container-cont {
+  border-radius: 4px;
   margin: 50px 0px;
   display: flex;
   flex-direction: column;
   align-self: center;
   justify-content: center;
   /* align-items: center; */
-  border: 2px solid red;
-  width: 60vw;
+  /* border: 2px solid red; */
+  width: 70vw;
   height: 60vh;
   background-color: black !important;
 }
@@ -180,12 +181,28 @@
 .last {
   display: flex;
   justify-content: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .last a {
   text-decoration: none;
   color: white;
   font-size: 25px;
+  font-weight: 700;
+}
+
+.second-container{
+  display: flex;
+  padding: 40px 40px;
+  border: 2px solid red;
+  height: 50vh;
+  background-color: white !important;
+}
+
+.h1 h1{
+  width: 70vw;
+  border: 2px solid red;
+  color: black;
+  font-size: 60px;
   font-weight: 800;
 }
 
