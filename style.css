@@ -115,17 +115,25 @@
 }
 
 /* ********* */
-
-.main {
-  margin-top: 20px;
-  justify-content: center;
-  align-items: center;
-  /* border: 2px solid red; */
-  display: inline-block;
-  margin-left: 550px;
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./img/light-glow.svg);
+  background-position: 100px;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  border: 2px solid red;
+  height: 90vh;
 }
 
-h3 {
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+  }
+
+  .main h3 {
   color: white;
   font-size: 20px;
   font-weight: 100;
@@ -133,7 +141,7 @@ h3 {
     Liberation Mono, monospace !important;
 }
 
-span {
+.main span {
   font-size: 20px;
   font-weight: 100;
   color: #2f81f7;
@@ -141,37 +149,40 @@ span {
     Liberation Mono, monospace !important;
 }
 
-p {
+.main p {
   color: white;
   font-size: 15px;
   font-weight: 500;
 }
 
-.container {
-  background-image: url(./img/light-glow.svg);
-  background-repeat: no-repeat;
-  margin-top: 40px;
-  /* border: 2px solid red; */
+.container-cont {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  /* align-items: center; */
+  border: 2px solid red;
+  width: 60vw;
+  height: 60vh;
+  background-color: black !important;
 }
 
-.container p {
+.container-cont p  {
+  line-height: 3;
+  background-color: black;
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
     Liberation Mono, monospace !important;
-  margin-left: 220px;
-  width: 900px;
-  height: 50px;
-  background-color: black;
   color: white;
-  line-height: 5;
+  /* border: 2px solid red; */
 }
 
 .last {
   display: flex;
   justify-content: center;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 .last a {
-  margin-top: 30px;
   text-decoration: none;
   color: white;
   font-size: 25px;
