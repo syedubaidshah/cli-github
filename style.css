@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #0d1117;
 }
 
@@ -49,6 +49,8 @@ body{
   text-decoration: none;
   transition: 0.3s;
 }
+
+/* ********/
 
 .home {
   /* border: 2px solid red; */
@@ -125,7 +127,7 @@ body{
   background-position: 100px;
   background-repeat: no-repeat;
   margin-top: 40px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 90vh;
 }
 
@@ -133,21 +135,13 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid red;
-  }
-
-  .main a {
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-    Liberation Mono, monospace !important;
+  justify-content: center;
+  /* border: 2px solid red; */
 }
 
-/* .main span {
-  font-size: 20px;
-  font-weight: 100;
-  color: #2f81f7;
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-    Liberation Mono, monospace !important;
-} */
+.main a {
+  margin-left: 14rem;
+}
 
 .main p {
   color: white;
@@ -162,14 +156,13 @@ body{
   flex-direction: column;
   align-self: center;
   justify-content: center;
-  /* align-items: center; */
   /* border: 2px solid red; */
   width: 70vw;
   height: 60vh;
   background-color: black !important;
 }
 
-.container-cont p  {
+.container-cont p {
   line-height: 3;
   background-color: black;
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
@@ -190,20 +183,190 @@ body{
   font-weight: 700;
 }
 
-.second-container{
-  display: flex;
+/* ******** */
+
+.second-container {
   padding: 40px 40px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 50vh;
   background-color: white !important;
 }
 
-.h1 h1{
+.h1 h1 {
   width: 70vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: black;
   font-size: 60px;
   font-weight: 800;
+}
+
+.sec-cont {
+  gap: 40px;
+  margin-top: 40px;
+  /* border: 2px solid red; */
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-cont h1 {
+  font-size: 25px;
+}
+
+.sec-cont a {
+  color: #2f81f7;
+  line-height: 3;
+  text-decoration: none;
+}
+
+.sec-cont p {
+  color: #6e7681;
+}
+
+/* ********* */
+
+.third-container {
+  background-image: url(./img/square-pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  /* border: 2px solid red; */
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 5%;
+  justify-content: center;
+}
+.third-cont {
+  background-color: white;
+  padding: 40px;
+  max-width: 500px;
+  height: 25vh;
+  /* border: 2px solid red; */
+}
+.third-cont h1 {
+  color: black;
+  /* border: 2px solid red; */
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.third-cont p {
+  /* border: 2px solid red; */
+  color: #6e7681;
+  position: relative;
+  font-size: 15px;
+  margin: 20px 0 20px;
+  width: 50vw;
+}
+
+.third-cont .arrow {
+  line-height: 4;
+  /* border: 2px solid red; */
+  text-decoration: none;
+  color: #2f81f7;
+  position: relative;
+  font-size: 14px;
+}
+
+.third-cont i {
+  color: #2f81f7;
+  font-size: 10px;
+}
+.third-cont .btn-box {
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+  width: 250px;
+  height: 50px;
+}
+
+.btn-box2 a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  background: black;
+  border-radius: 8px;
+  font-size: 19px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ******* */
+
+.fourth-container {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-cont a {
+  color: #6e7681;
+  line-height: 3;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.fourth-cont li {
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 40px;
+}
+
+.logo a {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.fourth-cont p {
+  font-size: 19px;
+  color: black;
+}
+
+/* ******** */
+
+.sub-footer {
+  /* border: 2px solid red; */
+  height: 8vh;
+  background-color: #f6f8fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  color: #6e7681;
+}
+
+.left a {
+  text-decoration: none;
+  color: #6e7681;
+  font-size: 13px;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+  color: #6e7681;
 }
 
 @media screen and (max-width: 450px) {
