@@ -597,9 +597,6 @@ body {
   .container {
     display: flex;
     flex-direction: column;
-    background-image: url(./img/light-glow.svg);
-    background-position: 100px;
-    background-repeat: no-repeat;
     margin-top: 40px;
     /* border: 2px solid red; */
     height: 90vh;
@@ -661,17 +658,17 @@ body {
   /* ******** */
 
   .second-container {
-    padding: 40px 40px;
+    padding: 40px 20px;
     /* border: 2px solid red; */
-    height: 50vh;
+    height: 150vh;
     background-color: white !important;
   }
 
   .h1 h1 {
-    width: 70vw;
+    width: 80vw;
     /* border: 2px solid red; */
     color: black;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 800;
   }
 
@@ -681,20 +678,25 @@ body {
     /* border: 2px solid red; */
     min-height: 200px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .sec-cont h1 {
-    font-size: 25px;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 600;
   }
 
   .sec-cont a {
+    font-size: 13px;
     color: #2f81f7;
     line-height: 3;
     text-decoration: none;
   }
 
   .sec-cont p {
+    font-size: 15px;
     color: #6e7681;
   }
 
@@ -706,7 +708,7 @@ body {
     background-size: cover;
     background-color: white;
     /* border: 2px solid red; */
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     padding: 0px 5%;
@@ -714,16 +716,16 @@ body {
   }
   .third-cont {
     background-color: white;
-    padding: 40px;
+    padding: 30px;
     max-width: 500px;
-    height: 25vh;
+    height: 40vh;
     /* border: 2px solid red; */
   }
   .third-cont h1 {
     color: black;
     /* border: 2px solid red; */
     position: relative;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 1;
   }
@@ -732,9 +734,8 @@ body {
     /* border: 2px solid red; */
     color: #6e7681;
     position: relative;
-    font-size: 15px;
-    margin: 20px 0 20px;
-    width: 50vw;
+    font-size: 13px;
+    width: 70vw;
   }
 
   .third-cont .arrow {
@@ -754,20 +755,21 @@ body {
     /* border: 2px solid red; */
     position: relative;
     display: flex;
-    width: 250px;
+    width: 200px;
     height: 50px;
   }
 
   .btn-box2 a {
+    /* border: 2px solid red; */
     position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 200px;
     height: 50px;
     background: black;
     border-radius: 8px;
-    font-size: 19px;
+    font-size: 15px;
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -780,66 +782,24 @@ body {
   /* ******* */
 
   .fourth-container {
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    /* border: 2px solid red; */
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 140vh;
   }
 
   .fourth-cont a {
-    color: #6e7681;
-    margin: 50px 50px;
-    /* line-height: 3; */
-    text-decoration: none;
-    font-size: 15px;
-  }
-
-  .fourth-cont a::after {
-    content: "";
-    width: 0;
-    height: 0.2px;
-    background-color: #6e7681;
-    margin: auto;
-    display: block;
-  }
-
-  .fourth-cont a:hover::after {
-    width: 50%;
-    transition: width 0.3 linear;
+    /* border: 2px solid red; */
+    font-size: 13px;
   }
 
   .fourth-cont li {
     list-style: none;
   }
 
-  .logo {
-    display: flex;
-    align-self: flex-start;
-    margin-top: 40px;
-  }
-
-  .logo a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-  .fourth-cont p {
-    margin: 20px 50px;
-    font-size: 19px;
-    color: black;
-  }
-
   /* ******** */
 
   .sub-footer {
     /* border: 2px solid red; */
-    height: 8vh;
     background-color: #f6f8fa;
     display: flex;
     justify-content: space-between;
@@ -849,7 +809,7 @@ body {
   .left {
     display: flex;
     gap: 10px;
-    font-size: 15px;
+    font-size: 10px;
     color: #6e7681;
   }
 
@@ -857,20 +817,6 @@ body {
     text-decoration: none;
     color: #6e7681;
     font-size: 13px;
-  }
-
-  .left a::after {
-    content: "";
-    width: 0;
-    height: 0.2px;
-    background-color: #6e7681;
-    margin: auto;
-    display: block;
-  }
-
-  .left a:hover::after {
-    width: 100%;
-    transition: width 0.3 linear;
   }
 
   .right {
